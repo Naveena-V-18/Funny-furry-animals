@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Funny Furry Animals</title>
+    <link rel="icon" href="paw.jpg" type="image/x-icon">
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <h1>Welcome to the Funny Furry Animals Gallery</h1>
+    </header>
+
+    <!-- Navigation Bar -->
+    <nav>
+        <ul>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <div class="main-container">
+        <!-- Gallery Section -->
+        <section id="gallery">
+            <h2>Funny Furry Animals</h2>
+            <div class="gallery-container">
+                <div class="animal">
+                    <img src="capybara.jpg" alt="Capybara">
+                    <p>Capybara: Loves to chill in the water and munch on grass.</p>
+                </div>
+                <div class="animal">
+                    <img src="hamster.jpg" alt="Hamster">
+                    <p>Hamster: Always on the move with a cheek full of snacks.</p>
+                </div>
+                <div class="animal">
+                    <img src="husky.jpg" alt="Husky">
+                    <p>Husky: Full of energy and always ready for adventure!</p>
+                </div>
+                <div class="animal">
+                    <img src="golden retriever.jpg" alt="Golden Retriever">
+                    <p>Golden Retriever: The ultimate family pet, friendly and loyal.</p>
+                </div>
+                <div class="animal">
+                    <img src="raccoon.jpg" alt="Raccoon">
+                    <p>Raccoon: A clever and curious creature, always up to something!</p>
+                </div>
+                <div class="animal">
+                    <img src="deer.jpg" alt="Deer">
+                    <p>Deer: Graceful and gentle, roaming the woods.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Home Section with List and Table -->
+        <section id="home">
+            <h2>Furry Animal Features</h2>
+            
+            <!-- List of Animals -->
+            <h3>Popular Furry Animals:</h3>
+            <ul>
+                <li>Capybara</li>
+                <li>Hamster</li>
+                <li>Husky</li>
+                <li>Golden Retriever</li>
+                <li>Raccoon</li>
+                <li>Deer</li>
+            </ul>
+
+            <!-- Table for Animal Features and Food -->
+            <table>
+                <thead>
+                    <tr>
+                        <th>Animal</th>
+                        <th>Feature</th>
+                        <th>Favorite Food</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Capybara</td>
+                        <td>Calm and social</td>
+                        <td>Grass</td>
+                    </tr>
+                    <tr>
+                        <td>Hamster</td>
+                        <td>Active and curious</td>
+                        <td>Seeds</td>
+                    </tr>
+                    <tr>
+                        <td>Husky</td>
+                        <td>Energetic and vocal</td>
+                        <td>Meat</td>
+                    </tr>
+                    <tr>
+                        <td>Golden Retriever</td>
+                        <td>Friendly and playful</td>
+                        <td>Kibble</td>
+                    </tr>
+                    <tr>
+                        <td>Raccoon</td>
+                        <td>Curious and mischievous</td>
+                        <td>Fruits</td>
+                    </tr>
+                    <tr>
+                        <td>Deer</td>
+                        <td>Graceful and quiet</td>
+                        <td>Leaves</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <form id="contactForm" action="#">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" placeholder="Your Name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="Your Email" required>
+                
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" placeholder="Your Message" required></textarea>
+                
+                <input type="submit" value="Submit">
+            </form>
+        </section>
+    </div>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2024 Funny Furry Animals. All Rights Reserved.</p>
+    </footer>
+
+    <!-- JavaScript File -->
+    <script src="script.js"></script>
+</body>
+</html>

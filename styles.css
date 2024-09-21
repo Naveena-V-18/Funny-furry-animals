@@ -1,0 +1,149 @@
+/* Basic Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Header Styling */
+header {
+    background-color: #6ba5c9;
+    color: #333;
+    text-align: center;
+    padding: 20px 0;
+}
+
+h1 {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+/* Navigation Bar */
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    background-color: #333;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+/* Main Container */
+.main-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Section Styling */
+section {
+    padding: 20px;
+    text-align: center;
+    width: 80%;
+}
+
+/* Gallery Styling */
+.gallery-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.animal {
+    margin-bottom: 20px; /* Space between each animal */
+}
+
+.animal img {
+    width: 150px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.animal p {
+    margin-top: 10px; /* Space between image and text */
+}
+
+/* Table Styling */
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+th {
+    background-color: #69a6e3;
+    color: #333;
+}
+
+/* List Styling */
+ul {
+    list-style-type: square;
+    padding: 0;
+}
+
+/* Contact Form Styling */
+#contact {
+    background-color: #f0f8ff;
+}
+
+form {
+    max-width: 400px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input, textarea {
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+}
+
+textarea {
+    height: 100px;
+}
+
+input[type="submit"] {
+    background-color: #60c797;
+    color: #333;
+    cursor: pointer;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+input[type="submit"]:hover {
+    background-color: #e6b800;
+}
+
+/* Footer Styling */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
