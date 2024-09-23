@@ -30,6 +30,10 @@ CSS: Styling, grid layout, flexbox, and colors.
 JavaScript: Interactive elements and dynamic functionalities.
 
 
+to view my project:
+ https://naveena-v-18.github.io/Funny-furry-animals/
+
+
 
 
 
